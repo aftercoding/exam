@@ -1,0 +1,8 @@
+{
+  "testCaseName": "testGetDealsFromDefaultTracGroupByMilestones",
+  "url": "https://interview.agilecrm.com/dev/api/opportunity/byMilestone",
+  "header": {
+    "Accept": "application/json"
+  },
+  "body": ""
+}

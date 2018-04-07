@@ -1,0 +1,8 @@
+{
+  "testCaseName": "testBulkDelete",
+  "url": "https://interview.agilecrm.com/dev/api/opportunity/bulk",
+  "header": {
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  "body": "{    \"ids\": [        \"123\",        \"234\",        \"235\"    ]}"
+}

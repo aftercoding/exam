@@ -1,0 +1,8 @@
+{
+  "testCaseName": "testGetDealsForParticularTrackGroupByMilestone",
+  "url": "https://interview.agilecrm.com/dev/api/opportunity/byPipeline/based?pipeline_id\u003d4756437",
+  "header": {
+    "Accept": "application/json"
+  },
+  "body": ""
+}

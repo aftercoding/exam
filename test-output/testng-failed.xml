@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DealsTest Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.zuora.interview.congjun.utils.TestListener"/>
+    <listener class-name="com.zuora.interview.congjun.utils.RetryListener"/>
+  </listeners>
+  <test name="Deals Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.zuora.interview.congjun.testcases.DealsTestCases">
+        <methods>
+          <include name="testUpdateDeal"/>
+          <include name="testBulkDelete"/>
+          <include name="testListDeals"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="testGetDealByID"/>
+          <include name="testRemoveContactsOfDeal"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="testGetDealsForParticularTrack"/>
+        </methods>
+      </class> <!-- com.zuora.interview.congjun.testcases.DealsTestCases -->
+    </classes>
+  </test> <!-- Deals Test(failed) -->
+</suite> <!-- Failed suite [DealsTest Suite] -->

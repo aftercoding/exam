@@ -1,0 +1,9 @@
+{
+  "testCaseName": "testUpdateDeal",
+  "url": "https://interview.agilecrm.com/dev/api/opportunity/partial-update ",
+  "header": {
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "body": "{    \"id\":5717827835133952,    \"name\": \"Deal-Tomato\",    \"expected_value\": \"600\",    \"probability\": \"100\",    \"milestone\": \"Proposal\",    \"contact_ids\": [        \"5694691248963584\"    ]}"
+}

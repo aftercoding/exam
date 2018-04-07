@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.zuora.interview.congjun.testcases.DealsTestCases">
+        <methods>
+          <include name="testUpdateDeal"/>
+          <include name="testBulkDelete"/>
+          <include name="testListDeals"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="testGetDealByID"/>
+          <include name="testRemoveContactsOfDeal"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="testGetDealsForParticularTrack"/>
+        </methods>
+      </class> <!-- com.zuora.interview.congjun.testcases.DealsTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

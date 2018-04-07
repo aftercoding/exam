@@ -1,0 +1,9 @@
+{
+  "testCaseName": "testCreateDealToContactUsingEmailID",
+  "url": "https://interview.agilecrm.com/dev/api/opportunity/email/samson@walt.ltd",
+  "header": {
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "body": "{    \"name\": \"Deal-Tomato\",    \"expected_value\": \"500\",    \"probability\": \"75\",    \"close_date\": 1455042600,    \"milestone\": \"Proposal\",    \"custom_data\": [        {            \"name\": \"Group Size\",            \"value\": \"10\"        }    ]}"
+}

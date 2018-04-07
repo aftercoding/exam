@@ -1,0 +1,9 @@
+{
+  "testCaseName": "testRemoveContactsOfDeal",
+  "url": "https://interview.agilecrm.com/dev/api/opportunity/partial-update/delete-contact",
+  "header": {
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "body": "{      \"id\": \"6429943999234048\",      \"contact_ids\": [          \"4930210138947584\",\t  \"4600356650614784\"      ]  }"
+}

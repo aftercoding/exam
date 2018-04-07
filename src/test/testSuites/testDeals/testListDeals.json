@@ -1,0 +1,8 @@
+{
+  "testCaseName": "testListDeals",
+  "url": "https://interview.agilecrm.com/dev/api/opportunity?page_size=10&cursor=E-ABAIICNGoRc35hZ2lsZS1jcm0tY2xvdWRyFAsSB0NvbnRhY3QYgICAgKLThAoMogEIcHJhYmF0aGuIAgAU",
+  "header": {
+    "Accept": "application/json"
+  },
+  "body": ""
+}

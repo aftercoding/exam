@@ -1,0 +1,9 @@
+{
+  "testCaseName": "testCreatContact",
+  "url": "https://interview.agilecrm.com/dev/api/contacts ",
+  "header": {
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "body": "{  \"star_value\": \"4\",  \"lead_score\": \"92\",  \"tags\": [    \"Lead\",    \"Likely Buyer\"  ],  \"properties\": [    {      \"type\": \"SYSTEM\",      \"name\": \"first_name\",      \"value\": \"Samson\"    },    {      \"type\": \"SYSTEM\",      \"name\": \"last_name\",      \"value\": \"Nolan\"    },    {      \"type\": \"SYSTEM\",      \"name\": \"email\",      \"subtype\": \"work\",      \"value\": \"samson@walt.ltd\"    },    {      \"type\": \"SYSTEM\",      \"name\": \"address\",      \"value\": \"{\\\"address\\\":\\\"225 George Street\\\",\\\"city\\\":\\\"NSW\\\",\\\"state\\\":\\\"Sydney\\\",\\\"zip\\\":\\\"2000\\\",\\\"country\\\":\\\"Australia\\\"}\"    }  ]}"
+}

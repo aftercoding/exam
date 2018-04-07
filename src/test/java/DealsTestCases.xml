@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DealsTest Suite" parallel="methods" thread-count="5">
+  <test name="Deals Test" group-by-instances="true">
+    <classes>
+      <class name="com.zuora.interview.congjun.testcases.DealsTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <listeners>
+  		<listener class-name="com.zuora.interview.congjun.utils.TestListener"/>
+        <listener class-name="com.zuora.interview.congjun.utils.RetryListener"/>
+    </listeners>
+    
+</suite> <!-- Suite -->

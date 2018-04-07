@@ -1,0 +1,8 @@
+{
+  "testCaseName": "testGetDealsOfCurrentUser",
+  "url": "https://interview.agilecrm.com/dev/api/opportunity/my/deals",
+  "header": {
+    "Accept": "application/json"
+  },
+  "body": ""
+}

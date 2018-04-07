@@ -1,0 +1,8 @@
+{
+  "testCaseName": "testGetDealsRelateToSpecificContact",
+  "url": "https://interview.agilecrm.com/dev/api/contacts/999/deals",
+  "header": {
+    "Accept": "application/json"
+  },
+  "body": ""
+}

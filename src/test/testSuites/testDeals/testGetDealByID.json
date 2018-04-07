@@ -1,0 +1,8 @@
+{
+  "testCaseName": "testGetDealByID",
+  "url": "https://interview.agilecrm.com/dev/api/opportunity/981 ",
+  "header": {
+    "Accept": "application/json"
+  },
+  "body": ""
+}
